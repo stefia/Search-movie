@@ -14,7 +14,7 @@ input {
     font-size: 16px;
 }
 .header {
-    height: 28vh;
+    height: 25vh;
     background-image: url('resources/hero-image-movie-search.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ input {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .logo {
@@ -39,7 +39,7 @@ input {
     display: flex;
     align-items: center;
     gap: 1rem;
-    width: 800px;
+    width: 600px;
     margin-bottom: -30px;
 }
 .movie-search_input {
@@ -84,7 +84,7 @@ input:-webkit-autofill:active {
     margin: 70px auto 0;
 }
 .movie-card {
-    width: 80%;
+    width: 60%;
 }
 .hidden {
     display: none;
@@ -131,6 +131,9 @@ input:-webkit-autofill:active {
     .movie-search {
         max-width: 60%;
     }
+    .movie-card {
+        width: 70%;
+    }
 }
 
 @media (min-width:720px) and (max-width:859px) {
@@ -143,16 +146,19 @@ input:-webkit-autofill:active {
     .movie-search {
         max-width: 60%;
     }
+    .movie-card {
+        width: 70%;
+    }
     
 }
 
 @media (max-width: 720px) {
     .header {
-        padding-top: 4rem;
+        padding-top: 3rem;
         gap: 1rem;
     }
     .movie-card {
-        width: 80%;
+        width: 90%;
         flex-direction: column;
     }
     .movie-search {
