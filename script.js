@@ -52,7 +52,7 @@ function showMovie(data) {
     const tagsArr = `${data.Genre}`.split(',').map(tag => tag.trim())
     tagsArr.forEach((tag) => {
         const tagCreate = document.createElement('span')
-        tagCreate.classList.add('tags')
+        tagCreate.classList.add('tag')
         tagCreate.textContent = tag
         movieTags.appendChild(tagCreate)
     })
