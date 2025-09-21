@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Movie Search App">
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96"/>
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="resources/OMDb-logo.png" alt="" class="logo">
+        <div class="movie-search">
+          <button class="movie-search_button" id="movieSearchButton" type="button"><img src="resources/search_alt.svg" alt=""></button>
+          <input type="text" class="movie-search_input" id="movieSearchInput" placeholder="Search movie">
+        </div>
+      </div>
+      <div class="movie_container">
+        <div class="movie-error hidden"></div>
+        <div class="movie-card hidden">
+          <img src="" alt="" class="movie_img">
+          <div class="movie-info">
+            <div class="movie-info_title"></div>
+            <div class="movie-info_tags"></div>
+            <div class="movie-info_descr"></div>
+            <div class="movie-info_director"></div>
+            <div class="movie-info_writers"></div>
+            <div class="movie-info_stars"></div>
+            <div class="movie-info_rating"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
