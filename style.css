@@ -19,16 +19,16 @@ input {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 4rem;
+    padding-top: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 .logo {
-    width: 40vh;
+    width: 35vh;
 }
 
 .movie-search {
@@ -126,7 +126,7 @@ input:-webkit-autofill:active {
 
 @media (min-width:860px) and (max-width:1279px) {
     .header {
-        padding-top: 3rem;
+        padding-top: 1.5rem;
     }
     .movie-search {
         max-width: 60%;
@@ -141,7 +141,7 @@ input:-webkit-autofill:active {
         justify-content: column;
     }
     .header {
-        padding-top: 3rem;
+        padding-top: 1.5rem;
     }
     .movie-search {
         max-width: 60%;
@@ -155,7 +155,6 @@ input:-webkit-autofill:active {
 @media (max-width: 720px) {
     .header {
         padding-top: 3rem;
-        gap: 1rem;
     }
     .movie-card {
         width: 90%;
